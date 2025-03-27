@@ -10,8 +10,6 @@ SELECT DOLCEPIE;
 
 --Criar a tabela de pedidos + Itens do pedido(Luiz)
 
-
-
 --Criar a tabela de carrinhos+ pagamentos Luna )
 CREATE database cartTable;
 USE cartTable;
@@ -21,8 +19,8 @@ CREATE TABLE cart(
  produto_id int not null,
  quantidade int not null default 1,
  preço_unitario decimal(10,2) not null,
- total decimal(10,2) generated alwats as(quantidade * preço_unitario) stored,
- criado em timestamp default current timestamp,
+ total decimal(10,2) generated always as(quantidade * preço_unitario) stored,
+ criado_em timestamp default current timestamp,
  atualizado_em timestamp default current_timestamp on update current_timestamp,
  FOREIGN key(cliente_id) references clientes(id) on delete cascade,
  FOREIGN key(produto_id) references produto(id) on delete cascade,
