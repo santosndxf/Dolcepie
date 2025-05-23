@@ -1,6 +1,6 @@
 package com.dolcepie.services;
 
-import com.dolcepie.models.Pay;
+import com.dolcepie.models.payModels;
 import com.dolcepie.repositories.PayRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
