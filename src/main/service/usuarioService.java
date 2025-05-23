@@ -1,6 +1,6 @@
 package com.dolcepie.services;
 
-import com.dolcepie.models.Usuario;
+import com.dolcepie.models.UserModels;
 import com.dolcepie.repository.userRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
