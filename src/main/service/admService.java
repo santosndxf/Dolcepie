@@ -1,6 +1,6 @@
 package com.dolcepie.services;
 
-import com.dolcepie.models.admModel;
+import com.dolcepie.models.admModels;
 import com.dolcepie.repository.admRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
