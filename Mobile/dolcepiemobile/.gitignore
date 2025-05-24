@@ -1,0 +1,45 @@
+# Arquivos de build e dependências
+/build/
+*/build/
+.gradle/
+local.properties
+
+# Arquivos de configuração de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Arquivos temporários e de sistema
+.DS_Store
+*.log
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Android Studio
+captures/
+output.json
+
+# Outros arquivos que não devem ir para o repositório
+*.keystore
